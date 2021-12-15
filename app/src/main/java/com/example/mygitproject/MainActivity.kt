@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"Welcome to First Push ",Toast.LENGTH_SHORT).show()
         Toast.makeText(this,"Welcome to Second Toast ",Toast.LENGTH_SHORT).show()
         Log.v("sss","button added with constraint")
-working as consultant
+button.setOnClickListener {
+
+}
     }
 }
