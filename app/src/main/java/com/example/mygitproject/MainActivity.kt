@@ -16,7 +16,8 @@ class MainActivity : AppCompatActivity() {
 button2.setOnClickListener {
 textView2.text="Welcome to Main Activity"
     val name ="Nagoorvali Shaik "
-    val current_compeny ="Capgemini"
+    val current_company ="Capgemini"
+    val previous_company="Aptonline"
 }
 
     }
