@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"Welcome to Second Toast ",Toast.LENGTH_SHORT).show()
         Log.v("sss","button added with constraint")
         no data binding
+        i am naggorvali
 
     }
 }
