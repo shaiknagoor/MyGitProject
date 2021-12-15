@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"Welcome to Second Toast ",Toast.LENGTH_SHORT).show()
         Log.v("sss","button added with constraint")
 button.setOnClickListener {
-
+textView2.text="Welcome to Main Activity"
 }
     }
 }
