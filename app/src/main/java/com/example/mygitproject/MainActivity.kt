@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"Welcome to First Push ",Toast.LENGTH_SHORT).show()
         Toast.makeText(this,"Welcome to Second Toast ",Toast.LENGTH_SHORT).show()
         Log.v("sss","button added with constraint")
-       Dno    9-28-7 ven
-
+working as consultant
     }
 }
