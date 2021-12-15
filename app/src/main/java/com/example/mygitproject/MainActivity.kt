@@ -13,8 +13,11 @@ class MainActivity : AppCompatActivity() {
         Toast.makeText(this,"Welcome to First Push ",Toast.LENGTH_SHORT).show()
         Toast.makeText(this,"Welcome to Second Toast ",Toast.LENGTH_SHORT).show()
         Log.v("sss","button added with constraint")
-button.setOnClickListener {
+button2.setOnClickListener {
 textView2.text="Welcome to Main Activity"
+    val name ="Nagoorvali Shaik "
+    val current_compeny ="Capgemini"
 }
+
     }
 }
